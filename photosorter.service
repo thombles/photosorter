@@ -1,0 +1,8 @@
+[Unit]
+Description=Camera Photo Sorter
+
+[Service]
+ExecStart=/usr/local/bin/photosorter -s /home/USER/sync/Camera -t /home/USER/photos
+
+[Install]
+WantedBy=default.target
